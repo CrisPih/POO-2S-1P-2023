@@ -10,6 +10,7 @@ import java.util.ArrayList;
  *
  * @author crisp
  */
+//mar was here
 public class Jugador {
     
     private String nombre;
