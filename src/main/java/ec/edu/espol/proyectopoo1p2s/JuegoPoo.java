@@ -127,7 +127,7 @@ public class JuegoPoo {
         }while(fin == false);
         System.out.println("GAME OVER");
     }
-     
+     // gracias por ayudarme a definirlo Mar
     public static void cargarJuegoUser(Juego juego){
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\n");
@@ -317,5 +317,6 @@ public class JuegoPoo {
             JuegoPoo.cargarUserVsUser(juego);
             
         }
+         //ya esta funcionando todo
     }
 }
