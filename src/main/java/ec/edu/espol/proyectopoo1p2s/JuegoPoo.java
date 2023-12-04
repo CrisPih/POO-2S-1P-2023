@@ -33,7 +33,7 @@ public class JuegoPoo {
         }
         return true;
     }
-     
+     // ya do quiero ser adulto Cris
     public static void cargarUserVsUser(Juego juego){
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\n");
@@ -207,7 +207,7 @@ public class JuegoPoo {
         }while(fin == false);
         System.out.println("GAME OVER"); 
     }
-     
+     //Gracias Mar por crear la de juego con la maquina
     public static void cargarJuegoMaquina(Juego juego){
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\n");
@@ -220,7 +220,7 @@ public class JuegoPoo {
         //lanzar ficha maquina
         boolean fin = false;
         
-        
+        //ayuda ya no quiero
         do{
             Jugador ju1= juego.getJugadores().get(0);
             Jugador ju2 = juego.getJugadores().get(1);
