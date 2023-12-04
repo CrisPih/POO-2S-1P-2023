@@ -43,19 +43,14 @@ public class Juego {
     
     public void mostrarLinea(){
         StringBuilder sb = new StringBuilder();
-    
-    for (int i = 0; i < this.lineaJuego.size(); i++) {
-        Ficha fichi = this.lineaJuego.get(i);
-        
-        sb.append(fichi);
-        
-        if (i < this.lineaJuego.size() - 1) {
-            sb.append('-');
+        for (int i = 0; i < this.lineaJuego.size(); i++) {
+            Ficha fichi = this.lineaJuego.get(i);
+            sb.append(fichi);
+            if (i != this.lineaJuego.size() - 1) {
+                sb.append(" - ");
+            }
         }
-    }
-    
-    System.out.println(sb.toString());
-        
+        System.out.println(sb.toString());
     }
 
     public ArrayList<Ficha> getLineaJuego() {
