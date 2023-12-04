@@ -12,6 +12,7 @@ import java.util.Scanner;
  *
  * @author marlo
  */
+// Cris estuvo aqui
 public class Juego {
     
     private ArrayList<Ficha> lineaJuego;
@@ -154,7 +155,7 @@ public class Juego {
         
         return false;
     }
-    
+    //corregido ;)
     public boolean agregarFichaLineaMaquina(){
         Jugador ju = this.jugadores.get(0);
         if(lineaJuego.isEmpty()){
