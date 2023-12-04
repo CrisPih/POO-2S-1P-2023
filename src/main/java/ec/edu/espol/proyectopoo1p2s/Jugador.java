@@ -48,7 +48,7 @@ public class Jugador {
             Ficha fichi = this.mano.get(i);
             sb.append(fichi);
             if (i < this.mano.size() - 1) {
-                sb.append('-');
+                sb.append(" - ");
             }
         }
     System.out.println(sb.toString());
