@@ -128,6 +128,7 @@ public class JuegoPoo {
         System.out.println("GAME OVER");
     }
      // gracias por ayudarme a definirlo Mar
+     // de nada Guapa <3
     public static void cargarJuegoUser(Juego juego){
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\n");
