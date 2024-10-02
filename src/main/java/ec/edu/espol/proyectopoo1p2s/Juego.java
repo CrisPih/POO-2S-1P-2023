@@ -10,9 +10,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author marlo
+ * @author marlo ahora si lo logreeeee
  */
-// Cris estuvo aqui
+// no idea de como se hace el comit pero buenoooo
 public class Juego {
     
     private ArrayList<Ficha> lineaJuego;
