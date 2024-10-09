@@ -13,6 +13,7 @@ import java.util.Scanner;
  * @author marlo ahora si lo logreeeee
  */
 // no idea de como se hace el comit pero buenoooo
+// seguimos probando como se hacen los cambios y asi veamos 
 public class Juego {
     
     private ArrayList<Ficha> lineaJuego;
